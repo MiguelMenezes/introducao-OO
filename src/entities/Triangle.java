@@ -30,4 +30,11 @@ public class Triangle {
 		this.c = c;
 	}
 
+	public double calcularArea() {
+
+		double p = (a + b + c) / 2;
+		return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+
+	}
+
 }
